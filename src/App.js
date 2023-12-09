@@ -2,11 +2,13 @@ import './App.css';
 import {useEffect, useMemo, useRef, useState} from "react";
 import moment from 'moment';
 
-const Number = ({number, row, is}) => {
+const Number = ({number, row}) => {
   const element = useRef()
-  const top = useMemo(() => {
-    if(element.current === undefined) return 0
-    return element.current.offsetHeight * number * -1
+  const [top, setTop] = useState(0)
+
+  useEffect(() => {
+    if(element.current === undefined) return
+    setTop(element.current.offsetHeight * number * -1)
   }, [number])
 
   let left
