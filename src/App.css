@@ -15,5 +15,45 @@ body {
 }
 
 .App {
+    background-color: #a441f7;
+}
 
+.content {
+    text-align: center;
+
+    display: inline-block;
+
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+.content > * {
+}
+
+.d-day {
+    width: 231px;
+    height: 62px;
+    display: inline-block;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.number-wrap {
+    display: inline-flex;
+    flex-direction: column;
+
+    position: absolute;
+    z-index: 3;
+    transition: 500ms;
+}
+
+.number-wrap * {
+
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 800;
 }
