@@ -9,7 +9,7 @@ const Number = ({number, row}) => {
   useEffect(() => {
     if(element.current === undefined) return
     setTop(element.current.offsetHeight * number * -1)
-  }, [number])
+  }, )
 
   let left
   if(element.current !== undefined)
