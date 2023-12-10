@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Goodbye-Twitch/static/css/main.11904d38.css",
-    "main.js": "/Goodbye-Twitch/static/js/main.efdac813.js",
+    "main.css": "/Goodbye-Twitch/static/css/main.ce7cf5af.css",
+    "main.js": "/Goodbye-Twitch/static/js/main.13707f15.js",
     "static/js/787.e368e134.chunk.js": "/Goodbye-Twitch/static/js/787.e368e134.chunk.js",
     "index.html": "/Goodbye-Twitch/index.html",
-    "main.11904d38.css.map": "/Goodbye-Twitch/static/css/main.11904d38.css.map",
-    "main.efdac813.js.map": "/Goodbye-Twitch/static/js/main.efdac813.js.map",
+    "main.ce7cf5af.css.map": "/Goodbye-Twitch/static/css/main.ce7cf5af.css.map",
+    "main.13707f15.js.map": "/Goodbye-Twitch/static/js/main.13707f15.js.map",
     "787.e368e134.chunk.js.map": "/Goodbye-Twitch/static/js/787.e368e134.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11904d38.css",
-    "static/js/main.efdac813.js"
+    "static/css/main.ce7cf5af.css",
+    "static/js/main.13707f15.js"
   ]
 }
