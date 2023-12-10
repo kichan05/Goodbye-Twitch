@@ -6,6 +6,10 @@
     font-family: 'SUIT', sans-serif;
 }
 
+*::selection {
+    background-color: white;
+}
+
 body {
     height: 100vh;
 }
@@ -26,14 +30,13 @@ body {
     position: absolute;
     top : 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(-50%, -50%) scale(1);
 }
 
 .content > * {
 }
 
 .d-day {
-    width: 231px;
     height: 62px;
     display: inline-block;
 
@@ -44,16 +47,36 @@ body {
 .number-wrap {
     display: inline-flex;
     flex-direction: column;
-
-    position: absolute;
-    z-index: 3;
     transition: 500ms;
 }
 
 .number-wrap * {
-
     display: inline-block;
     font-size: 50px;
     text-align: center;
     font-weight: 800;
+}
+
+@media (max-width: 900px) {
+    .content h1 {
+        font-size: 30px;
+    }
+    .d-day {
+        height: 38px;
+    }
+    .number-wrap * {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .content h1 {
+        font-size: 20px;
+    }
+    .d-day {
+        height: 32px;
+    }
+    .number-wrap * {
+        font-size: 25px;
+    }
 }
