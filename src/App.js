@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className="App">
-      {d_day.days} {d_day.hours} {d_day.days} {d_day.hours} {d_day.minutes} {d_day.second} {d_day.asSecond}
+      {/*{d_day.days} {d_day.hours} {d_day.days} {d_day.hours} {d_day.minutes} {d_day.second} {d_day.asSecond}*/}
       <div className="content">
         <h1>트위치 종료까지</h1>
         <div className="d-day">
